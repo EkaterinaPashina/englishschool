@@ -2,102 +2,79 @@
     margin: 0;
 }
 
-@font-face {
-    font-family: "Inter";
-    src: url(./assets/fonts/Inter-Regular);
-    weight: 400;
-}
-
-@font-face {
-    font-family: "Inter";
-    src: url(./assets/fonts/Inter-Bold);
-    weight: 700;
-}
-
 .tutors__container {
-    margin-left: 100px;
+    margin-left: 20px;
 }
 
 .tutors__title {
-    font-family: "Inter", sans-serif;
+    font-family: 'Montserrat Alternates';
     font-style: normal;
-    font-weight: 400;
-    font-size: 64px;
-    line-height: 77px;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 59px;
+
     color: #000000;
+    text-align: center;
     padding-top: 112px;
     padding-bottom: 15px;
 }
 
+.tutors__title_circle {
+    position: relative;
+    top: -150px;
+    right: -450px;
+}
+
 .tutors__items {
     display: flex;
-    justify-content: space-between;
-    margin-right: 100px;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 62px;
 }
 
 .tutors__image {
-    padding: 25px;
+    padding-left: 20%;
 }
 
 .tutors__item {
-    border: 1px solid gray;
+    border: 4px dotted #8C8383;
     border-radius: 10px;
 }
 
-.tutors_name {
-    font-family: 'Inter', sans-serif;
+.tutors__name {
+    font-family: 'Montserrat Alternates';
     font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 39px;
-    color: #000000;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    color: #A54A47;
     padding-left: 15px;
     padding-top: 10px;
     padding-bottom: 15px;
 }
 
 .tutors__description {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat Alternates';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
-    line-height: 29px;
+    font-size: 16px;
+    line-height: 40px;
+    /* or 250% */
+
+
     color: #000000;
-    max-width: 293px;
+    width: 669px;
     padding-left: 15px;
     padding-bottom: 15px;
 }
 
 .tutors__experience {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat Alternates';
     font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 39px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
 
-    color: #000000;
-    text-align: center;
+    color: #87A6C6;
     padding: 20px 10px 20px 10px;
-}
-
-.button-consult {
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 48px;
-    color: #000000;
-    background-color: #8C8383;
-
-    border: 1px solid #000000;
-    border-radius: 26px;
-
-    padding: 19px 191px 29px 191px;
-    margin-top: 40px;
-}
-
-.tutos__button {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 82px;
 }
