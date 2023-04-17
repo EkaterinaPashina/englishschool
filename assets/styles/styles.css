@@ -16,7 +16,7 @@
     color: #000000;
     text-align: center;
     padding-top: 112px;
-    padding-bottom: 15px;
+    padding-bottom: 126px;
 }
 
 .tutors__title_circle {
@@ -36,10 +36,10 @@
     padding-left: 20%;
 }
 
-.tutors__item {
+/*.tutors__item {
     border: 4px dotted #8C8383;
     border-radius: 10px;
-}
+}*/
 
 .tutors__name {
     font-family: 'Montserrat Alternates';
